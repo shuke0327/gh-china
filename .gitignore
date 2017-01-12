@@ -38,4 +38,6 @@ chromedriver.log
 spec/examples.txt
 .vagrant
 .byebug_history
+dump.rdbshared/
 dump.rdb
+shared/
