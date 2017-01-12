@@ -144,3 +144,7 @@ group :development, :test do
   gem 'codecov', require: false
   gem 'pry-byebug'
 end
+
+group :production do
+  gem 'passenger'
+end

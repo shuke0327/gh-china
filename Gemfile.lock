@@ -253,6 +253,9 @@ GEM
     orm_adapter (0.5.0)
     parser (2.3.3.1)
       ast (~> 2.2)
+    passenger (5.1.1)
+      rack
+      rake (>= 0.8.1)
     pg (0.19.0)
     pghero (1.6.2)
       activerecord
@@ -484,6 +487,7 @@ DEPENDENCIES
   notifications
   omniauth
   omniauth-github
+  passenger
   pg
   pghero
   postmark
@@ -525,4 +529,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   1.13.6
+   1.13.7
